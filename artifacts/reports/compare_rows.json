@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "prompt": "What is self-attention in transformers?",
+    "pure": "i have no, i have you. as not it is showed, o, and he was you must i know my lord, my bail say and i\u2019",
+    "hybrid": "had her, and to your sport; her, for your country\u2019d. what you have i am i have you, of a light, that have his",
+    "contexts": [
+      {
+        "text": "mine own self-love quite contrary i read: self, so self-loving were iniquity. \u2019tis thee, myself, that for myself i praise, painting my age with beauty of thy days.",
+        "score": 0.192023099689116
+      },
+      {
+        "text": "you are a very simplicity \u2019oman; i pray you, peace.\u2014what is _lapis_, william? a stone. and what is \u201ca stone,\u201d william?",
+        "score": 0.18897624577562006
+      },
+      {
+        "text": "brabantio appears above at a window. brabantio. what is the reason of this terrible summons? what is the matter there?",
+        "score": 0.17620324067478346
+      }
+    ],
+    "pure_ms": 344.58049992099404,
+    "hybrid_ms": 1210.5401000007987
+  },
+  {
+    "id": 2,
+    "prompt": "Why do language models use tokenization?",
+    "pure": "to be my life. good my lord, for a captive. if i am me me. but i have i am not out for my life when you shall",
+    "hybrid": "with a plain a muse. the prince of the king. but when thou hast no, as much? in the duke, and my lord, and quickly,",
+    "contexts": [
+      {
+        "text": "i pray you, sir, deliver with more openness your answers to my demands. why do you pity me? that others do,",
+        "score": 0.21731764282687516
+      },
+      {
+        "text": "who hadst deserv\u2019d more than a prison. you taught me language, and my profit on \u2019t is, i know how to curse. the red plague rid you, for learning me your language!",
+        "score": 0.2126746964275707
+      },
+      {
+        "text": "upon the right hand i. keep thou the left. why do you cross me in this exigent? i do not cross you; but i will do so. [_march._]",
+        "score": 0.19706485648036903
+      }
+    ],
+    "pure_ms": 350.56449996773154,
+    "hybrid_ms": 1287.8603000426665
+  },
+  {
+    "id": 3,
+    "prompt": "Difference between top-k and top-p sampling?",
+    "pure": "to his hairy in the blood, i have i know not the while. what, or his face\u2019d by the worth; in me her sleep, and",
+    "hybrid": "\u2019tis not to read thy death, now i\u2019s court, for a palm and the day in the blood that i were it is of mine, and",
+    "contexts": [
+      {
+        "text": "i have dogs, my lord, will rouse the proudest panther in the chase, and climb the highest promontory top. and i have horse will follow where the game",
+        "score": 0.252353815926848
+      },
+      {
+        "text": "we will, fair queen, up to the mountain\u2019s top, and mark the musical confusion of hounds and echo in conjunction. i was with hercules and cadmus once,",
+        "score": 0.23998019530004183
+      },
+      {
+        "text": "the raven rooked her on the chimney\u2019s top, and chatt\u2019ring pies in dismal discord sung; thy mother felt more than a mother\u2019s pain, and yet brought forth less than a mother\u2019s hope,",
+        "score": 0.21082458561608694
+      }
+    ],
+    "pure_ms": 363.3425999432802,
+    "hybrid_ms": 1387.7662000013515
+  },
+  {
+    "id": 4,
+    "prompt": "What causes hallucinations in LMs?",
+    "pure": "with you. for these, the good will now, she must you. the way, i am me, this is, of death! what, and i",
+    "hybrid": "have done, if you shall not, i am not, with his injury. enter cassio and it. and he did plot the rich and with a true,",
+    "contexts": [
+      {
+        "text": "upon our spiritual convocation and in regard of causes now in hand, which i have opened to his grace at large, as touching france, to give a greater sum",
+        "score": 0.2215067639373557
+      },
+      {
+        "text": "his uncle siward, and the good macduff. revenges burn in them; for their dear causes would to the bleeding and the grim alarm excite the mortified man.",
+        "score": 0.2061419113211007
+      },
+      {
+        "text": "and youthful still\u2014in your doublet and hose, this raw rheumatic day? there is reasons and causes for it. we are come to you to do a good office, master parson. fery well; what is it?",
+        "score": 0.20569344929911268
+      }
+    ],
+    "pure_ms": 346.15789994131774,
+    "hybrid_ms": 1301.0814000153914
+  },
+  {
+    "id": 5,
+    "prompt": "What is perplexity and why does it matter?",
+    "pure": "it, and, thou didst? in such a master. and our griefs, and others. so, for that he is be called he hopes to make.",
+    "hybrid": "that i will do\u2019s an appetite. when i, to be not so, and i will not that it are a light, and not, of your",
+    "contexts": [
+      {
+        "text": "then hamlet does it not, hamlet denies it. who does it, then? his madness. if\u2019t be so, hamlet is of the faction that is wrong\u2019d; his madness is poor hamlet\u2019s enemy.",
+        "score": 0.24866931089151445
+      },
+      {
+        "text": "music i\u2019 th\u2019 air. under the earth. fourth soldier. it signs well, does it not?",
+        "score": 0.24647544327949766
+      },
+      {
+        "text": "o heavens, why does my blood thus muster to my heart, making both it unable for itself and dispossessing all my other parts",
+        "score": 0.21551983534088404
+      }
+    ],
+    "pure_ms": 336.8124000262469,
+    "hybrid_ms": 1236.384200048633
+  },
+  {
+    "id": 6,
+    "prompt": "Write a short motivational message for students.",
+    "pure": "but for a pedant thee, i could-simple. o\u2019s death, thou, \u2019tis to me to thy affairs, you shall the treasury. i",
+    "hybrid": "and others, but of the ward, in the better her, or, but a word, i have in that there\u2019s the world have forgot and have",
+    "contexts": [
+      {
+        "text": "your message done, hie home unto my chamber, where thou shalt find me sad and solitary. how many women would do such a message? alas, poor proteus, thou hast entertained",
+        "score": 0.23650203101699013
+      },
+      {
+        "text": "he hath some message to deliver us. ay, some mad message from his mad grandfather. my lords, with all the humbleness i may, i greet your honours from andronicus;",
+        "score": 0.23253222085375114
+      },
+      {
+        "text": "unless her prayers, whom heaven delights to hear and loves to grant, reprieve him from the wrath of greatest justice. write, write, rynaldo, to this unworthy husband of his wife;",
+        "score": 0.161300863578558
+      }
+    ],
+    "pure_ms": 361.91769992001355,
+    "hybrid_ms": 1289.3186000874266
+  },
+  {
+    "id": 7,
+    "prompt": "Explain recursion with a simple analogy.",
+    "pure": "i\u2019s-k, that threatens the world you. if i am the gods, and yours. he is the doctor is the prince, with cap,",
+    "hybrid": "the world he were the ward, thou art if i will not, good, and yet it, it hath i\u2019s nativity at my lord, i\u2019",
+    "contexts": [
+      {
+        "text": "enter simple. how now, simple, where have you been? i must wait on myself, must i? you have not the _book of riddles_ about you, have you? simple.",
+        "score": 0.4823764472618839
+      },
+      {
+        "text": "simple of my life for an hour and a quarter. the fee simple! o simple! enter tybalt and others. by my head, here comes the capulets.",
+        "score": 0.44473610082513104
+      },
+      {
+        "text": "[_aside_.] if a talent be a claw, look how he claws him with a talent. this is a gift that i have, simple, simple; a foolish extravagant spirit, full of forms, figures, shapes, objects, ideas, apprehensions, motions, revolutions. these are begot in the ventricle of memory,",
+        "score": 0.2881475230717957
+      }
+    ],
+    "pure_ms": 347.98840002622455,
+    "hybrid_ms": 1635.5002999771386
+  },
+  {
+    "id": 8,
+    "prompt": "Draft a polite email asking for project feedback.",
+    "pure": "now? the shoulder, he\u2019d, and make the world, i am it is a favour to the king like by the place of the world to be",
+    "hybrid": "i am i would i am on the same for he ask. i cannot, and have that he provided, and yet there is the manner at your assistance,",
+    "contexts": [
+      {
+        "text": "a labour sav\u2019d! a wonder! ajax goes up and down the field asking for himself. how so?",
+        "score": 0.2175733563691944
+      },
+      {
+        "text": "\u2019tis the cardinal; and merely to revenge him on the emperor for not bestowing on him at his asking, the archbishopric of toledo this is purposed.",
+        "score": 0.17391715228247118
+      },
+      {
+        "text": "come from the north: and as i came along, i met and overtook a dozen captains, bareheaded, sweating, knocking at the taverns, and asking everyone for sir john falstaff.",
+        "score": 0.16500472412419354
+      }
+    ],
+    "pure_ms": 355.1234999904409,
+    "hybrid_ms": 1172.6165999425575
+  },
+  {
+    "id": 9,
+    "prompt": "Give a 5-point plan to learn deep learning quickly.",
+    "pure": "enter that as much you, which; good my lord. but but i apply of force a palm, and with a word. a true\u2019s death:",
+    "hybrid": "let me, the king. here, but the world with thy vocation; that is the duke to see a lu for the fool, enter cassio, and the",
+    "contexts": [
+      {
+        "text": "which, though i will not practise to deceive, yet, to avoid deceit, i mean to learn; for it shall strew the footsteps of my rising. but who comes in such haste in riding-robes?",
+        "score": 0.16656927065400834
+      },
+      {
+        "text": "by any means; our thing of learning says so\u2014 where he himself will edify the duke most parlously in our behalfs. he\u2019s excellent i\u2019 th\u2019 woods; bring him to th\u2019 plains, his learning makes no cry.",
+        "score": 0.16595541777070233
+      },
+      {
+        "text": "to learn his wit t\u2019 exchange the bad for better. fie, fie, unreverend tongue, to call her bad whose sovereignty so oft thou hast preferred with twenty thousand soul-confirming oaths.",
+        "score": 0.16418652422191893
+      }
+    ],
+    "pure_ms": 332.33130001462996,
+    "hybrid_ms": 1451.8863999983296
+  },
+  {
+    "id": 10,
+    "prompt": "Write a 4-line poem about coding at night.",
+    "pure": "the world\u2019d. to my lord, and yet the time, i will like the duke of the view, if see and the worth of death, of",
+    "hybrid": "it had of her me, and make us, it will on the king. now. but i\u2019s hoard, i not have gle me. for us",
+    "contexts": [
+      {
+        "text": "rugby. i\u2019ll go watch. go; and we\u2019ll have a posset for\u2019t soon at night, in faith, at the latter end of a sea-coal fire.",
+        "score": 0.199941745075594
+      },
+      {
+        "text": "the cuckold\u2019s horns. master brook, thou shalt know i will predominate over the peasant, and thou shalt lie with his wife. come to me soon at night. ford\u2019s a knave, and i will aggravate his style. thou, master brook, shalt know him for knave and cuckold. come to me soon at night.",
+        "score": 0.19387553389511428
+      },
+      {
+        "text": "go in, and cheer the town; we\u2019ll forth, and fight, do deeds worth praise and tell you them at night. farewell. the gods with safety stand about thee! [_exeunt severally priam and hector. alarums._]",
+        "score": 0.18306217344964193
+      }
+    ],
+    "pure_ms": 345.6881999736652,
+    "hybrid_ms": 1612.696100026369
+  }
+]

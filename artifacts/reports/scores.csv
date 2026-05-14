@@ -1,0 +1,21 @@
+prompt_id,prompt,mode,coherence,relevance,groundedness,tags,notes
+1,What is self-attention in transformers?,pure,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+1,What is self-attention in transformers?,hybrid,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+2,Why do language models use tokenization?,pure,4,1,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+2,Why do language models use tokenization?,hybrid,4,1,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+3,Difference between top-k and top-p sampling?,pure,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+3,Difference between top-k and top-p sampling?,hybrid,5,2,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+4,What causes hallucinations in LMs?,pure,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+4,What causes hallucinations in LMs?,hybrid,4,1,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+5,What is perplexity and why does it matter?,pure,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+5,What is perplexity and why does it matter?,hybrid,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+6,Write a short motivational message for students.,pure,5,2,4,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+6,Write a short motivational message for students.,hybrid,4,2,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+7,Explain recursion with a simple analogy.,pure,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+7,Explain recursion with a simple analogy.,hybrid,4,1,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+8,Draft a polite email asking for project feedback.,pure,4,2,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+8,Draft a polite email asking for project feedback.,hybrid,4,2,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+9,Give a 5-point plan to learn deep learning quickly.,pure,5,1,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+9,Give a 5-point plan to learn deep learning quickly.,hybrid,4,2,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+10,Write a 4-line poem about coding at night.,pure,4,1,2,,proxy heuristic (proxy_scores.py); replace with human rubric if required
+10,Write a 4-line poem about coding at night.,hybrid,4,1,3,,proxy heuristic (proxy_scores.py); replace with human rubric if required

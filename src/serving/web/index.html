@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NovaLM-Hybrid Studio</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>NovaLM-Hybrid Studio</h1>
+      <p>Generate with pure LM mode or retrieval-augmented hybrid mode.</p>
+      <span id="healthBadge" class="badge">Checking API...</span>
+      <p class="corpusNote" role="note">
+        <strong>Corpus-bound:</strong> outputs only reflect what lives in <code>data/raw</code> and the retrieval index.
+        Questions outside that domain can look wrong; add matching text and retrain/rebuild the index, or tune <code>configs/retrieval.yaml</code> (e.g. <code>min_context_score</code>, <code>stop_words</code>).
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="card overview">
+        <h2>Project Purpose</h2>
+        <p class="sub">
+          NovaLM-Hybrid combines a mini language model with retrieval grounding. Use Pure mode for baseline generation,
+          and Hybrid mode to inject top relevant context chunks before answering.
+        </p>
+        <div class="overviewGrid">
+          <div>
+            <h3>Why this is valuable</h3>
+            <ul>
+              <li>Demonstrates end-to-end AI engineering, not only model training.</li>
+              <li>Provides API + UI + history + export for real usage and evaluation.</li>
+              <li>Supports repeatable demos with measurable latency and retrieval context.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Recommended flow</h3>
+            <ul>
+              <li>Enter prompt and choose generation mode.</li>
+              <li>Inspect outputs and retrieved contexts.</li>
+              <li>Use history filters/export to compare quality over runs.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card controls">
+        <h2>Prompt</h2>
+        <textarea id="prompt" rows="8" placeholder="Ask something..."></textarea>
+
+        <label class="fullRow">Suggested prompts
+          <select id="demoPromptSelect">
+            <option value="">— Choose a starter prompt —</option>
+            <option value="Explain self-attention in one short paragraph.">Explain self-attention in one short paragraph.</option>
+            <option value="What is retrieval-augmented generation?">What is retrieval-augmented generation?</option>
+            <option value="Give three study tips for learning transformers.">Give three study tips for learning transformers.</option>
+            <option value="Summarize how TF-IDF retrieval works.">Summarize how TF-IDF retrieval works.</option>
+          </select>
+        </label>
+
+        <div class="grid">
+          <label>Max New Tokens
+            <input id="maxNewTokens" type="number" min="8" max="256" value="60" />
+          </label>
+          <label>Temperature
+            <input id="temperature" type="number" min="0.1" max="2.0" step="0.1" value="0.8" />
+          </label>
+          <label>Top-K
+            <input id="topK" type="number" min="1" max="100" value="40" />
+          </label>
+          <label>Retrieval Top-K
+            <input id="retrievalTopK" type="number" min="1" max="10" value="3" />
+          </label>
+        </div>
+
+        <div class="actions">
+          <button id="demoPresetBtn" class="btn ghost">High Coherence (Demo)</button>
+          <button id="pureBtn" class="btn">Run Pure Generate</button>
+          <button id="hybridBtn" class="btn primary">Run Hybrid Generate</button>
+          <button id="clearBtn" class="btn ghost">Clear</button>
+        </div>
+      </section>
+
+      <section class="card output">
+        <div class="tabs">
+          <button data-tab="pure" class="tab active">Pure Output</button>
+          <button data-tab="hybrid" class="tab">Hybrid Output</button>
+          <button data-tab="contexts" class="tab">Retrieved Contexts</button>
+        </div>
+
+        <div id="status" class="status">Idle</div>
+
+        <article id="purePanel" class="panel active">
+          <h3>Pure Generation</h3>
+          <pre id="pureText"></pre>
+        </article>
+
+        <article id="hybridPanel" class="panel">
+          <h3>Hybrid Generation</h3>
+          <pre id="hybridText"></pre>
+        </article>
+
+        <article id="contextsPanel" class="panel">
+          <h3>Retrieved Contexts</h3>
+          <ul id="contextsList"></ul>
+        </article>
+
+        <div class="actions">
+          <button id="copyBtn" class="btn">Copy Visible Output</button>
+          <button id="downloadBtn" class="btn">Download JSON</button>
+        </div>
+      </section>
+
+      <section class="card history">
+        <div class="historyHead">
+          <h2>Recent Runs</h2>
+          <div class="actions compact">
+            <button id="refreshHistoryBtn" class="btn ghost">Refresh</button>
+            <button id="exportHistoryJsonBtn" class="btn ghost">Export JSON</button>
+            <button id="exportHistoryCsvBtn" class="btn ghost">Export CSV</button>
+            <button id="clearHistoryBtn" class="btn ghost danger">Delete All</button>
+          </div>
+        </div>
+        <p class="sub">Stored in local SQLite DB via backend.</p>
+        <div class="historyFilters">
+          <label>Mode
+            <select id="historyMode">
+              <option value="">All</option>
+              <option value="pure">Pure</option>
+              <option value="hybrid">Hybrid</option>
+            </select>
+          </label>
+          <label>Search
+            <input id="historySearch" type="text" placeholder="Prompt/output contains..." />
+          </label>
+          <button id="applyHistoryFilterBtn" class="btn">Apply Filters</button>
+        </div>
+        <div class="actions compact">
+          <button id="historyPrevBtn" class="btn ghost">Prev</button>
+          <button id="historyNextBtn" class="btn ghost">Next</button>
+        </div>
+        <ul id="historyList" class="historyList"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js?v=20260514-1"></script>
+</body>
+</html>

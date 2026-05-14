@@ -1,0 +1,14 @@
+# TF-IDF retrieval (scikit-learn). Tuned for small English corpora; adjust for multilingual text.
+max_features: 50000
+ngram_range: [1, 2]
+min_df: 1
+max_df: 0.98
+sublinear_tf: true
+strip_accents: "unicode"
+# Use "english" to down-weight function words when ranking; set null for non-English corpora.
+stop_words: "english"
+# If the best cosine match is below this, hybrid mode skips injecting chunks (reduces garbage-in).
+# Set null to always inject top-k. Typical try range for small corpora: 0.04 - 0.12
+min_context_score: 0.05
+# Optional override for the hybrid prompt template. Must include {excerpts} and {prompt} placeholders.
+# hybrid_instruction: null

@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+artifacts/db/
+artifacts/checkpoints/*.pt
+artifacts/reports/tmp/
+.DS_Store
+.idea/
+.vscode/
