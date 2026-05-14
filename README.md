@@ -101,6 +101,8 @@ Without trained artifacts (matches CI):
 python -m pytest -m "not integration"
 ```
 
+`tests/conftest.py` skips collecting `tests/test_api.py` in that mode so the API module (which loads `best.pt` at import time) is never imported. To force collection of API tests in CI with a checkpoint, set `RUN_INTEGRATION_API=1` and provide weights.
+
 Full suite including HTTP/API checks (requires checkpoint, SentencePiece model, and `chunks.json` on disk):
 
 ```bash
